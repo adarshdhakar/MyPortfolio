@@ -1,0 +1,80 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 10px 0;
+}
+
+header .navbar-brand {
+    font-size: 1.5em;
+}
+
+section {
+    padding: 60px 0;
+}
+
+footer {
+    background-color: #0056b3;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+h1, h2, h3 {
+    color: #0056b3;
+}
+
+.intro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-photo {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 5px;
+    background-color: white;
+}
+
+a {
+    color: #0056b3;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.list-group-item {
+    display: flex;
+    align-items: center;
+}
+
+.list-group-item i {
+    margin-right: 10px;
+    color: #0056b3;
+}
+
+@media (max-width: 768px) {
+    .intro {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .intro img {
+        margin-bottom: 20px;
+    }
+}
